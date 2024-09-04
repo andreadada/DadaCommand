@@ -15,7 +15,7 @@ public class DadaCMD {
     private CommandManager commandManager;
 
     public void init(JavaPlugin plugin) {
-        commandManager = new CommandManager();
+        commandManager = new CommandManager(plugin);
     }
 
     public CommandManager getCommandManager() {
